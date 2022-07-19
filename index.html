@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="@iuris_sousa" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="./assets/styles/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    <header class="header bg-home" id="header">
+      <div class="main-content header-content">
+        <a href="#">Portfolio</a>
+        <nav id="nav">
+          <button id="btn-mobile"><span id="icon-nav"></span></button>
+          <ul id="menu">
+            <li><a class="nav-li" href="#home">Home</a></li>
+            <li><a class="nav-li" href="#about">About</a></li>
+            <li><a class="nav-li" href="#skills">Skills</a></li>
+            <li><a class="nav-li" href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="header-spacing"></div>
+
+    <section class="home section" id="home">
+      <div class="main-content home-content">
+        <div class="title-home">
+          <h1 class="animation-top">
+            HE <br />
+            LLO.
+          </h1>
+          <p class="animation-left-1">I'm Iuris sousa</p>
+          <p class="animation-left-2">WebDeveloper Student</p>
+          <div id="div-scroll-btn" class="home-btn-position">
+            <button id="btn-scroll" class="style-home-btn">CONTACT</button>
+          </div>
+        </div>
+        <div class="img-home animation-right-1">
+          <img src="./assets/img/img-home.svg" alt="Boy playing soccer." />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about" id="about">
+      <div class="main-content about-content">
+        <div class="about-text">
+          <div class="line-decoration">
+            <h2 class="animation-top">About</h2>
+          </div>
+
+          <p class="animation-left-2">
+            Olá, Tenho 25 anos, estou cursando Analise e desenvolvimento de
+            sistemas e tenho como objetivo me torna um Desenvolvedor FrontEend.
+            Esse é meu primeiro Porfólio Web onde ele foi desenvolvido apenas
+            com HTML, CSS e JavaScript.
+          </p>
+        </div>
+        <div class="about-img animation-right-1">
+          <img src="./assets/img/img-about.svg" alt="" />
+        </div>
+        <div id="skills"></div>
+      </div>
+    </section>
+
+    <section class="section-skills">
+      <div class="main-content skills-content">
+        <div class="skills-img">
+          <ul class="animation-left-2">
+            <li class="s-5">HTML5</li>
+            <li class="s-4">CSS3</li>
+            <li class="s-3">JavaScript</li>
+            <li class="s-2">Angular</li>
+            <li class="s-1">EM BREVE</li>
+          </ul>
+        </div>
+        <div class="skills-text">
+          <h2 class="animation-top">Skills</h2>
+          <p class="animation-right-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            impedit eius officiis fugit minima non cum veniam voluptate aperiam
+            voluptatum, quae quas rem vitae aliquam illum modi nostrum commodi
+            quidem!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects" id="projects">
+      <div class="main-content projects-content">
+        <div class="title-projects animation-left-2">
+          <h2>Projects</h2>
+        </div>
+        <div class="slide-container swiper animation-top">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <!--<img src="images/profile1.jpg" alt="" class="card-img">-->
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Em Breve</h2>
+
+                  <button class="button-slide">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <!--<img src="images/profile1.jpg" alt="" class="card-img">-->
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Em Breve</h2>
+
+                  <button class="button-slide">View More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="footer-content">
+        <p>Created by iuris sousa</p>
+      </div>
+    </footer>
+
+    <div class="bg-modal">
+      <div class="modal-content">
+        <div class="close">+</div>
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/iuris-sousa-0268231a7/"
+            target="_blank"
+            ><img
+              src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+              target="_blank"
+          /></a>
+          <br />
+          <a href="https://github.com/iurissousa" target="_blank"
+            ><img
+              src="https://icongr.am/devicon/github-original.svg?size=128&color=currentColor"
+              target="_blank"
+          /></a>
+        </h2>
+      </div>
+    </div>
+
+    <a href="#home" class="scrollup bg-home" id="scroll-up"
+      ><i class="uil uil-envelope-alt"></i
+    ></a>
+
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
